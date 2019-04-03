@@ -1,16 +1,21 @@
 <template>
   <div>
     <Nav />
-    <nuxt />
+    <div class="flex flex-col md:flex-row">
+      <SideBar />
+      <nuxt />
+    </div>
   </div>
 </template>
 
 <script>
 import Nav from '~/layouts/Nav';
+import SideBar from '~/layouts/SideBar';
 
 export default {
   components: {
-    Nav
+    Nav,
+    SideBar
   },
   head: {
     title: 'Nuxt.js Dashboard Starter',
