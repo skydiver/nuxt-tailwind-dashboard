@@ -1,7 +1,17 @@
 <template>
-  <div>HELLO WORLD!</div>
+  <BaseContainer>
+    <PageHeader title="HELLO WORLD!" />
+  </BaseContainer>
 </template>
 
 <script>
-export default {};
+import BaseContainer from '~/components/containers/BaseContainer.vue';
+import PageHeader from '~/components/widgets/PageHeader.vue';
+
+export default {
+  components: {
+    BaseContainer,
+    PageHeader
+  }
+};
 </script>
