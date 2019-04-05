@@ -9,6 +9,7 @@
 <script>
 import BaseContainer from '~/components/containers/BaseContainer.vue';
 import PageHeader from '~/components/widgets/PageHeader.vue';
+
 import MetricCards from '~/components/_demo/MetricCards.vue';
 import GraphCards from '~/components/_demo/GraphCards.vue';
 
