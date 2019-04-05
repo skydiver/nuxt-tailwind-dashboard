@@ -1,8 +1,7 @@
 <template>
   <BaseContainer>
-    <PageHeader title="HELLO WORLD!" />
-    <MetricCards />
-    <GraphCards />
+    <PageHeader title="Buttons" />
+    <ButtonsDemo />
   </BaseContainer>
 </template>
 
@@ -10,15 +9,13 @@
 import BaseContainer from '~/components/containers/BaseContainer.vue';
 import PageHeader from '~/components/widgets/PageHeader.vue';
 
-import MetricCards from '~/components/_demo/MetricCards.vue';
-import GraphCards from '~/components/_demo/GraphCards.vue';
+import ButtonsDemo from '~/components/_demo/Buttons.vue';
 
 export default {
   components: {
     BaseContainer,
     PageHeader,
-    MetricCards,
-    GraphCards
+    ButtonsDemo
   }
 };
 </script>

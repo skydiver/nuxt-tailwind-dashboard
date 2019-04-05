@@ -1,22 +1,14 @@
 [
   {
-    "name": "Tasks",
+    "name": "Home",
+    "icon": "fa-home",
+    "color": "pink",
+    "href": "/"
+  },
+  {
+    "name": "Buttons",
     "icon": "fa-tasks",
-    "color": "pink"
-  },
-  {
-    "name": "Messages",
-    "icon": "fa-envelope",
-    "color": "purple"
-  },
-  {
-    "name": "Analytics",
-    "icon": "fa-chart-area",
-    "color": "blue-dark"
-  },
-  {
-    "name": "Payments",
-    "icon": "fa-wallet",
-    "color": "red"
+    "color": "pink",
+    "href": "buttons"
   }
 ]

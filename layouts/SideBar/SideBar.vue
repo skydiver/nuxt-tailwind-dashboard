@@ -14,6 +14,7 @@
           :name="obj.name"
           :icon="obj.icon"
           :color="obj.color"
+          :href="obj.href"
         />
       </ul>
     </div>
