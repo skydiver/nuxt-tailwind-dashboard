@@ -22,8 +22,8 @@
 </template>
 
 <script>
-import BaseItem from '~/layouts/SideBar/BaseItem';
 import sideBarItemsList from './items-list.json';
+import BaseItem from '~/layouts/SideBar/BaseItem';
 
 export default {
   components: {
